@@ -184,5 +184,45 @@ img{
 }
 
 .blog_tittle p{
-    margin-bottom: ;
+    margin-left: 40%;
+    font-size: 1rem;
+    margin-bottom:1.5rem ;
 }
+
+/* bl9og end */
+
+/* books start */
+
+ .books{
+    width: 100%;
+    padding: 4rem;
+    position: relative;
+    background-color: whitesmoke;
+ }
+
+ .books .title{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-family: var(--lora);
+ }
+
+ .books .title h2:after{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 3px;
+    border-bottom: 1px solid #000;
+    right: 32%;
+    top: 50%;
+ }
+
+ .books .title h2:before{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 3px;
+    border-bottom: 1px solid #000;
+    left: 32%;
+    top: 50%;
+ }
