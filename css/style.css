@@ -214,7 +214,7 @@ img{
     height: 3px;
     border-bottom: 1px solid #000;
     right: 32%;
-    top: 8%;
+    top: 10%;
  }
 
  .books .title h2:before{
@@ -224,7 +224,7 @@ img{
     height: 3px;
     border-bottom: 1px solid #000;
     left: 32%;
-    top: 8%;
+    top: 10%;
  }
 
  .books_content{
