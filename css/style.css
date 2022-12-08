@@ -214,7 +214,7 @@ img{
     height: 3px;
     border-bottom: 1px solid #000;
     right: 32%;
-    top: 50%;
+    top: 8%;
  }
 
  .books .title h2:before{
@@ -224,5 +224,76 @@ img{
     height: 3px;
     border-bottom: 1px solid #000;
     left: 32%;
-    top: 50%;
+    top: 8%;
  }
+
+ .books_content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3rem;
+    padding-top: 5rem;
+    border-top: 1px solid black;
+ }
+
+ .books_item{
+    background-color: rgb(179, 179, 179);
+    padding: 10px 10px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.books_item:hover{
+    border: 1px solid red;
+}
+
+.books_img{
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.books_social{
+    position: absolute;
+    bottom: 10px;
+    left: 15%;
+    color: white;
+    font-size: 1.2rem;
+    display: none;
+}
+
+.books_social i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.books_img:hover .blog_social{
+    display: block;
+}
+
+.books_social i:hover{
+    color: red;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.books_tittle{
+    font-family: var(--web);
+    text-transform: capitalize;
+}
+
+.books_tittle h2{
+    margin-bottom: 0.2rem;
+    margin-left: 24%;
+}
+
+.books_tittle i{
+    margin-left: 8%;
+}
+
+.books_tittle p{
+    margin-left: 40%;
+    font-size: 1rem;
+    margin-bottom:1.5rem ;
+}
