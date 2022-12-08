@@ -110,7 +110,7 @@ img{
     background-color: white;
 }
 
-.blog .title{
+.blog .title h2{
     text-align: center;
     font-family: var(--roboto) ;
     font-size: 2rem;
@@ -200,11 +200,12 @@ img{
     background-color: whitesmoke;
  }
 
- .books .title{
+ .books .title h2{
     text-align: center;
     font-size: 3rem;
     letter-spacing: 2px;
     font-family: var(--lora);
+    text-transform: uppercase;
  }
 
  .books .title h2:after{
@@ -214,7 +215,7 @@ img{
     height: 3px;
     border-bottom: 1px solid #000;
     right: 32%;
-    top: 10%;
+    top: 9%;
  }
 
  .books .title h2:before{
@@ -224,7 +225,7 @@ img{
     height: 3px;
     border-bottom: 1px solid #000;
     left: 32%;
-    top: 10%;
+    top: 9%;
  }
 
  .books_content{
@@ -233,6 +234,7 @@ img{
     gap: 3rem;
     padding-top: 5rem;
     border-top: 1px solid black;
+    margin-bottom: 3rem;
  }
 
  .books_item{
@@ -297,3 +299,48 @@ img{
     font-size: 1rem;
     margin-bottom:1.5rem ;
 }
+
+.books button{
+    margin-left: 37%;
+    motion-path: 3rem;
+    font-size: 2rem;
+    padding: 0.2 0.2rem;
+    background-color: rgb(6, 5, 36);
+    color: white;
+    border-radius: 10px;
+}
+
+.news{
+    width: 100%;
+    padding: 4rem;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.news h2{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-family: var(--lora);
+    text-transform: uppercase;
+}
+
+.news h2:after{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 3px;
+    border-bottom: 1px solid #000;
+    right: 29%;
+    top: 50%;
+ }
+
+ .news h2:before{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 3px;
+    border-bottom: 1px solid #000;
+    left: 29%;
+    top: 50%;
+ }
